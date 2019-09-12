@@ -1,0 +1,10 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_1='/home/erik/proyectos/c++/arq'
+let g:netrw_dirhist_2='/home/erik/proyectos/elixir/languages1001/apps/languages1001_web'
+let g:netrw_dirhist_3='/home/erik/proyectos/elixir/languages1001/apps/languages1001_web/lib'
+let g:netrw_dirhist_4='/home/erik/proyectos/elixir/languages1001/apps/languages1001_web/lib/languages1001_web'
+let g:netrw_dirhist_5='/home/erik/proyectos/elixir/languages1001/apps/languages1001_web'
+let g:netrw_dirhist_6='/home/erik/proyectos/elixir/languages1001/apps/languages1001_web/lib'
+let g:netrw_dirhist_7='/home/erik/proyectos/elixir/languages1001/apps/languages1001_web/lib/languages1001_web'
+let g:netrw_dirhist_8='/home/erik/.asdf/plugins/ruby/rubygems-plugin'
