@@ -50,8 +50,19 @@ nmap <F5> <Plug>(JavaComplete-Imports-Add)
 imap <F5> <Plug>(JavaComplete-Imports-Add)
 nmap <F6> <Plug>(JavaComplete-Imports-AddMissing)
 imap <F6> <Plug>(JavaComplete-Imports-AddMissing)
-nnoremap <F2> :call fzf#run({'sink': 'tabedit', 'source': 'find * -type f'})<CR>
+"add 'sink': 'tabedit' to create a tab by opened file
+nnoremap <F2> :call fzf#run({'sink': 'e', 'source': 'find * -type f'})<CR>
 nnoremap <F3> :call LanguageClient_contextMenu()<CR>
+
+"Move over split spaces
+"move to down
+nnoremap <C-J> <C-W><C-J>
+"move to up
+nnoremap <C-K> <C-W><C-K>
+"move to right
+nnoremap <C-L> <C-W><C-L>
+"move to left
+nnoremap <C-H> <C-W><C-H>
 
 set termguicolors     " enable true colors support
 let ayucolor="mirage"  " for light version of theme
